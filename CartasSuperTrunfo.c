@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//DESAFIO CARTAS SUPER TRUNFO FINAL
+//DESAFIO_CARTAS_SUPER_TRUNFO
 
 int main() {
     // Variáveis para a primeira carta
