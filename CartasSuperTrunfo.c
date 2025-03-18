@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//DESAFIO CARTAS SUPER TRUNFO
+//DESAFIO CARTAS SUPER TRUNFO_FINAL
 
 int main() {
     // Variáveis para a primeira carta
@@ -26,13 +26,13 @@ int main() {
     printf("Digite os dados da primeira carta:\n");
 
     printf("Estado (A-H): ");
-    scanf(" %c", &estado1); // Adicione um espaço antes de %c para consumir o caractere de nova linha pendente
+    scanf(" %c", &estado1); 
 
     printf("Código da Carta (ex: A01): ");
-    scanf("%s", codigo1); // Correto: sem o &
+    scanf("%s", codigo1); 
 
     printf("Nome da Cidade: ");
-    scanf("%s", cidade1); // Correto: sem o &
+    scanf("%s", cidade1); 
 
     printf("População: ");
     scanf("%d", &populacao1);
@@ -50,13 +50,12 @@ int main() {
     printf("\nDigite os dados da segunda carta:\n");
 
     printf("Estado (A-H): ");
-    scanf(" %c", &estado2); // Adicione um espaço antes de %c para consumir o caractere de nova linha pendente
-
+    scanf(" %c", &estado2); 
     printf("Código da Carta (ex: B02): ");
-    scanf("%s", codigo2); // Correto: sem o &
+    scanf("%s", codigo2); 
 
     printf("Nome da Cidade: ");
-    scanf("%s", cidade2); // Correto: sem o &
+    scanf("%s", cidade2); 
 
     printf("População: ");
     scanf("%d", &populacao2);
